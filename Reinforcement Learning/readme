@@ -1,0 +1,17 @@
+The Deep Reinforcement Learning Nanodegree program is divided into four parts, giving you a thorough understanding of deep reinforcement learning, and covering some of the major topics.
+Part 1: Foundations of Reinforcement Learning
+
+The first part begins with a simple introduction to reinforcement learning. You'll learn how to define real-world problems as Markov Decision Processes (MDPs), so that they can be solved with reinforcement learning.
+
+Value-Based Methods
+In the second part, you'll learn how to leverage neural networks when solving complex problems using the Deep Q-Networks (DQN) algorithm. You will also learn about modifications such as double Q-learning, prioritized experience replay, and dueling networks. Then, you'll use what you’ve learned to create an artificially intelligent game-playing agent that can navigate a spaceship!
+
+With experts at NVIDIA's Deep Learning Institute how to apply your new skills to robotics applications. Using a Gazebo simulation, you will train a rover to navigate an environment without running into walls.
+
+Policy-Based Methods
+In the third part, you'll learn about policy-based and actor-critic methods such as Proximal Policy Optimization (PPO), Advantage Actor-Critic (A2C), and Deep Deterministic Policy Gradients (DDPG). You’ll also learn about optimization techniques such as evolution strategies and hill climbing.
+
+Multi-Agent Reinforcement Learning
+Most of the reinforcement learning is concerned with a single agent that seeks to demonstrate proficiency at a single task. In this agent's environment, there are no other agents. However, if we'd like our agents to become truly intelligent, they must be able to communicate with and learn from other agents. In the final part of this nanodegree, we will extend the traditional framework to include multiple agents.
+
+Worked Monte Carlo Tree Search (MCTS) and master the skills behind DeepMind's AlphaZero.
