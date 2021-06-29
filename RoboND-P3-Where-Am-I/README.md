@@ -128,37 +128,15 @@ Directory Structure
 │   ├── Term1-Project3-Where-Am-I-Demo_3.gif   # Demo video
 │   ├── Term1-Project3-Where-Am-I-Demo_4.gif   # Demo video
 ```
-- [Term1-Project3-Where-Am-I-Demo_1.gif](/videos/Term1-Project3-Where-Am-I-Demo_1.gif): A demo video for failure run.  
-- [Term1-Project3-Where-Am-I-Demo_2.gif](/videos/Term1-Project3-Where-Am-I-Demo_2.gif): A demo video for successful run.  
-- [Term1-Project3-Where-Am-I-Demo_3.gif](/videos/Term1-Project3-Where-Am-I-Demo_3.gif): A demo video for successful run.  
-- [Term1-Project3-Where-Am-I-Demo_4.gif](/videos/Term1-Project3-Where-Am-I-Demo_4.gif): A demo video for successful run.  
-- [drive_bot.cpp](/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested speeds.  
-- [gokart_description.launch](/catkin_ws/src/my_gokart/launch/gokart_description.launch): Create gokart model in Gazebo world.  
-- [world.launch](/catkin_ws/src/my_gokart/launch/world.launch): Launch my_gokart mode in Gazebo world with building and plugins.  
-- [my_gokart.gazebo](/catkin_ws/src/my_gokart/urdf/my_gokart.gazebo): Define my_gokart URDF model plugins.  
-- [my_gokart.xacro](/catkin_ws/src/my_gokart/urdf/my_gokart.xacro): Define my_gokart URDF model.  
-- [empty.world](/catkin_ws/src/my_gokart/worlds/empty.world): Gazebo world file that includes nothing.  
-- [myoffice.world](/catkin_ws/src/my_gokart/worlds/myoffice.world): Gazebo world file that includes the models.  
-- [CMakeLists.txt](/catkin_ws/src/my_gokart/CMakeLists.txt): File to link the C++ code to libraries.  
-- [robot_description.launch](/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world.  
-- [hokuyo.dae](/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
-- [my_robot.gazebo](/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
-- [my_robot.xacro](/catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
-- [amcl.launch](/catkin_ws/src/my_robot/launch/amcl.launch): Launch AMCL node
-- [myoffice.pgm](/catkin_ws/src/my_robot/maps/myoffice.pgm): Generated myoffice map
-- [myoffice.yaml](/catkin_ws/src/my_robot/maps/myoffice.yaml): Info for myoffice map
-- [default.rviz](/catkin_ws/src/my_robot/rviz/default.rviz): Default rviz
-- [map.pgm](/catkin_ws/src/pgm_map_creator/maps/map.pgm): Generated myoffice map
 
 ## Run the project  
 * Clone this repository
 ```
-git clone https://github.com/jinchaolu/RoboND-Term1-P3-Where-Am-I.git
+git clone https://github.com/TheStoneMX/Udacity/tree/master/RoboND-P3-Where-Am-I
 ```
 * Open the repository and make  
 ```
-cd /home/workspace/RoboND-Term1-P3-Where-Am-I/catkin_ws/
+cd /home/workspace/catkin_ws/
 catkin_make
 ```
 * Launch my_robot in Gazebo to load both the world and plugins  
