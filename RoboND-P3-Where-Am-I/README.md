@@ -132,7 +132,7 @@ Directory Structure
 ## Run the project  
 * Clone this repository
 ```
-git clone https://github.com/TheStoneMX/Udacity/blob/master/RoboND-P3-Where-Am-I.git
+git clone https://github.com/TheStoneMX/Udacity/tree/master/RoboND-P3-Where-Am-I.git
 ```
 * Open the repository and make  
 ```
